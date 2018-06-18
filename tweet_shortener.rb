@@ -16,6 +16,7 @@ end
 
 def word_substituter(tweet)
   tweet.split(" ").collect do |word|
+    # downcase to check for words that begin the sentence (For =/= for)
     if dictionary.keys.include?(word.downcase)
       word = dictionary[word.downcase]
     else
