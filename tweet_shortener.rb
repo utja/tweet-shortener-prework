@@ -33,5 +33,5 @@ end
 
 def selective_tweet_shortener(tweet)
   tweet.split(" ").collect do |phrase|
-    
+    if phrase.lenght 
 end
