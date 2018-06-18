@@ -38,4 +38,5 @@ def selective_tweet_shortener(tweet)
     elsif phrase.length <= 140
       phrase
     end
+  end
 end
